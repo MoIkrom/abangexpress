@@ -1,4 +1,4 @@
-<h1 align="center"><u> Abang Express App</u></h1>
+<h1 align="center">Abang Express App</h1>
 
 ## Features
 
