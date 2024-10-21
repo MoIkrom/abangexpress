@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex items-center justify-center h-screen">
       <div>
-        <Link href="/dashboard">
+        <Link href="/landing">
           <Image src={logo} alt="My Image" width={100} height={132} />
         </Link>
       </div>
