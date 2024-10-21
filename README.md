@@ -14,7 +14,7 @@
 
 1. Open your terminal or command prompt.
 2. Type `git clone https://github.com/MoIkrom/abangexpress.git`
-3. Open folder with your text editor.
+3. Open folder with your text editor (recomended use VSCode ).
 4. Type `npm install` to install Depedencies.
 5. Start to edit and development.
 6. Type `npm run dev` to run application in localhost .
