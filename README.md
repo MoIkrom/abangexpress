@@ -13,12 +13,6 @@
 - [Dashboard](#features)
 - [Profile](#requirements)
 
-## Introduction
-
-# **About Abang Express**
-
-_Abang Express is one of the biggest logistic company in Indonesia !_
-
 ## Features
 
 - Landing Page
@@ -40,6 +34,6 @@ _Abang Express is one of the biggest logistic company in Indonesia !_
 
 ## Related Project
 
-- Deployment site [`here`](https://abangexpress.vercel.app/)
+- Deployment site [`Click here`](https://abangexpress.vercel.app/) to see Deployment
 
 <p align="center"><sub><b>&copy;2024 @Abangexpress</b></sub></p>
