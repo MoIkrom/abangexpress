@@ -21,6 +21,6 @@
 
 ## Related Project
 
-- Deployment site [`Click here`](https://abangexpress.vercel.app/) to see Deployment
+- Deployment site : [`Click here`](https://abangexpress.vercel.app/) to see Deployment
 
 <p align="center"><sub><b>&copy;2024 @Abangexpress</b></sub></p>
