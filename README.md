@@ -8,8 +8,6 @@
 
 </p>
 
-<br>
-
 ## Features
 
 - Landing Page
