@@ -1,12 +1,4 @@
 <h1 align="center"><u> Abang Express App</u></h1>
-<p align="left">
-<h2>Built with
-
-</h2>
-
-[![Requirements](https://skillicons.dev/icons?i=react,nextjs)](https://skillicons.dev)
-
-</p>
 
 ## Features
 
