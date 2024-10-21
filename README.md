@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center"><u> Abang Express App</u></h1>
+<p align="left">
+<h2>Built with</h2>
+</p>
 
-## Getting Started
+[![Requirements](https://skillicons.dev/icons?i=react,nextjs)](https://skillicons.dev)
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Landing Page](#introduction)
+- [Dashboard](#features)
+- [Profile](#requirements)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Introduction
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# **About Abang Express**
 
-## Learn More
+_Abang Express is one of the biggest logistic company in Indonesia !_
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Landing Page
+- Profile
+- Shipping
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Requirements
 
-## Deploy on Vercel
+[![Requirements](https://skillicons.dev/icons?i=figma,nextjs,vscode,vercel)](https://skillicons.dev)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage for development
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Open your terminal or command prompt.
+2. Type `git clone https://github.com/MoIkrom/abangexpress.git`
+3. Open folder with your text editor.
+4. Type `npm install `.
+5. Start to edit and development.
+
+## Related Project
+
+- Deployment site [`here`](https://abangexpress.vercel.app/)
+
+<p align="center"><sub><b>&copy;2024 @Abangexpress</b></sub></p>
