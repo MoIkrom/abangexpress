@@ -18,7 +18,7 @@ export default function Otp() {
           <h3 className="text-black font-sans text-lg font-bold ">
             Masukan Kode Verifikasi
           </h3>
-          <p className="text-[12px] text-center" style={{ color: "#667085" }}>
+          <p className="text-xs text-center text-[#667085]">
             Kode verifikasi telah kami kirim melalui email adv*******@gmail.com
           </p>
           <div className="flex space-x-2 my-5">
