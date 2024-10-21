@@ -2,7 +2,10 @@
 <p align="left">
 <h2>Built with</h2>
 </p>
+
 [![Requirements](https://skillicons.dev/icons?i=react,nextjs)](https://skillicons.dev)
+
+<br>
 
 ## Features
 
