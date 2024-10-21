@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Home from "../../public/images/home.webp";
 import Profile from "../../public/images/profile.webp";
 import Delivery from "../../public/images/delivery.webp";
