@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../public/images/logo-abg-express.png";
+import logo from "../public/images/logo-abg-express.webp";
 import Link from "next/link";
 export default function Home() {
   return (

@@ -1,4 +1,4 @@
-import login from "../../public/images/login-bg.png";
+import login from "../../public/images/login-bg.webp";
 import Image from "next/image";
 import Link from "next/link";
 

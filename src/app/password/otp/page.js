@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Sandi from "../../../public/images/sandi.png";
+import Sandi from "../../../public/images/sandi.webp";
 import Image from "next/image";
 
 export default function Otp() {

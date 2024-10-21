@@ -1,5 +1,5 @@
 import Link from "next/link";
-import success from "../../../public/images/success.png";
+import success from "../../../public/images/success.webp";
 import Image from "next/image";
 
 export default function Success() {

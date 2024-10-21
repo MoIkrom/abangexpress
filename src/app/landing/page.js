@@ -1,4 +1,4 @@
-import logo from "../../public/images/landing-page.png";
+import logo from "../../public/images/landing-page.webp";
 import Image from "next/image";
 import Link from "next/link";
 
