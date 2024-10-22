@@ -24,7 +24,7 @@ export default function Success() {
         <div className=" mt-5 w-full">
           <Link
             className="flex justify-center px-7 items-center"
-            href="/homepage"
+            href="/login"
           >
             <button
               type="button"

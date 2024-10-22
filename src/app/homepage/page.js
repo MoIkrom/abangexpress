@@ -1,15 +1,13 @@
-import Home from "../../public/images/home.webp";
-import Profile from "../../public/images/profile.webp";
-import Delivery from "../../public/images/delivery.webp";
-import location from "../../public/images/location.png";
-import active from "../../public/images/active.png";
-import nearby from "../../public/images/nearby.png";
-import paket from "../../public/images/paket.png";
-import account from "../../public/images/account.png";
-import notification from "../../public/images/notification.png";
-import Image from "next/image";
+import Delivery from "@/public/images/delivery.webp";
+import location from "@/public/images/location.png";
 
-export default function Otp() {
+import BottomNavbar from "@/component/BottomNavbar";
+import Home from "@/public/images/bg-home.webp";
+import Profile from "@/public/images/profile.webp";
+import Image from "next/image";
+import Link from "next/link";
+
+export default function Homepage() {
   return (
     <div className="flex flex-col justify-center items-center ">
       <div className="w-full md:w-[390px] ">
@@ -98,7 +96,9 @@ export default function Otp() {
           </div>
           <div className="flex justify-between px-1 mt-5">
             <h3 className="font-semibold">Pending</h3>
-            <h3 className="font-medium text-[#E52138] ">Lihat Semua</h3>
+            <Link href="/pickup">
+              <h3 className="font-medium text-[#E52138] ">Lihat Semua</h3>
+            </Link>
           </div>
           <div class="p-6 mt-3 bg-white border border-gray-200 rounded-2xl shadow-lg ">
             <div className="flex justify-between">
@@ -161,35 +161,7 @@ export default function Otp() {
             </div>
           </div>
         </div>
-        <div className=" z-10 fixed  bottom-0 w-full md:w-[380px] bg-white shadow-lg border-t-2">
-          <nav className="flex justify-around h-[65px] cursor-pointer">
-            <div className="flex flex-col justify-center items-center">
-              <Image src={active} alt="My Image" width={32} height={32} />
-              <p className="text-xs text-center text-[#E52138]">Beranda</p>
-            </div>
-            <div className="flex flex-col justify-center items-center">
-              <Image src={nearby} alt="My Image" width={32} height={32} />
-              <p className="text-xs text-center text-[#A0A4A8]">Nearby</p>
-            </div>
-            <div
-              className="flex flex-col justify-center items-center"
-              style={{ position: "relative", top: "-19.5px" }}
-            >
-              <Image className=" border shadow-lg rounded-full" src={paket} alt="My Image" width={70} height={70} />
-              <p className="text-xs text-center text-[#A0A4A8]">Paket Anda</p>
-            </div>
-            <div className="flex flex-col justify-center items-center">
-              <Image src={notification} alt="My Image" width={32} height={32} />
-              <p className="text-xs text-center text-[#A0A4A8]">
-                Notifications
-              </p>
-            </div>
-            <div className="flex flex-col justify-center items-center">
-              <Image src={account} alt="My Image" width={32} height={32} />
-              <p className="text-xs text-center text-[#A0A4A8]">Account</p>
-            </div>
-          </nav>
-        </div>
+        <BottomNavbar />
       </div>
     </div>
   );
