@@ -3,7 +3,9 @@
 import { useState } from "react";
 import Delivery from "@/public/images/delivery.webp";
 import location from "@/public/images/location.png";
+import back from "@/public/images/back.png";
 import Image from "next/image";
+import Header from "@/component/Header";
 
 export default function Pickup() {
   // State untuk menyimpan tab yang aktif
@@ -43,9 +45,7 @@ export default function Pickup() {
   return (
     <div className="flex flex-col justify-center items-center ">
       <div className="w-full md:w-[390px] ">
-        <div className="flex justify-center items-center mt-5">
-          <h3 className="text-black font-sans text-2xl font-bold ">Pickup</h3>
-        </div>
+        <Header title="Pickup" />
         <div className=" border-b mt-5 border-[#e6c5c8]">
           <ul className="flex justify-between mx-2 gap-5 items-center">
             <li

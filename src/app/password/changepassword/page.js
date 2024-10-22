@@ -1,14 +1,11 @@
+import HeaderComponent from "@/component/Header";
 import Link from "next/link";
 
 export default function Forgot() {
   return (
     <div className="flex flex-col justify-center items-center ">
       <div className=" w-full md:w-[390px] flex flex-col justify-center items-center ">
-        <div className="flex justify-center items-center mt-3">
-          <h3 className="text-black font-sans text-2xl font-bold ">
-            Lupa Kata Sandi
-          </h3>
-        </div>
+        <HeaderComponent title="Lupa Kata Sandi" />
         <div className="flex  justify-start w-full p-5">
           <div className="flex flex-col justify-start">
             <h3 className="text-black font-sans text-lg font-bold ">

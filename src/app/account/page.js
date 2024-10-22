@@ -48,9 +48,11 @@ export default function Account() {
                 advenreey@gmail.com
               </p>
             </div>
-            <p className="font-title text-base font-semibold text-[#E52138] ">
-              Ubah
-            </p>
+            <Link href="/account/profile">
+              <p className="font-title text-base font-semibold text-[#E52138] ">
+                Ubah
+              </p>
+            </Link>
           </div>
           <div className="flex flex-col mt-5 gap-5 ">
             <div className="flex flex-col gap-5 justify-between  ">
